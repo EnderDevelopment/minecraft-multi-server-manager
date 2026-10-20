@@ -1,0 +1,22 @@
+name: ModernNetworking
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin for managing multiple servers within a Minecraft network
+api-version: "1.21"
+commands:
+  createserver:
+    description: Create a new server
+    usage: /createserver <name>
+  deleteserver:
+    description: Delete a server
+    usage: /deleteserver <name>
+  listservers:
+    description: List all servers
+    usage: /listservers
+  createspawn:
+    description: Create a spawn NPC
+    usage: /createspawn
+  createhub:
+    description: Create a hub server
+    usage: /createhub
